@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    min-height:100vh;
+    text-align:center;
+    padding-top:40px;
+    color:white;
+}
+
+input{
+    padding:12px;
+    margin:10px;
+    border:none;
+    border-radius:10px;
+    width:180px;
+}
+
+button{
+    padding:12px 20px;
+    margin:10px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#result{
+    background:white;
+    color:black;
+    width:500px;
+    margin:30px auto;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+#history{
+    width:500px;
+    margin:20px auto;
+    background:white;
+    color:black;
+    border-radius:15px;
+    padding:15px;
+    min-height:50px;
+}
